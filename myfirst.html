@@ -7,6 +7,60 @@
     <link rel="stylesheet" href="myfirst.css">
 </head>
 <body>
+    <div class="all">
+     <div class="head">
+        <h1 class="Admin Dashboard"></h1>
+     </div>
+     <div class="navbar">
+        <h1>Admin Dashboard</h1>
+     </div>
+     <div class="inputs" >
+        <div class="brandModel">
+
+        <input id="name" type="text" placeholder="Name" >
+        <input id="brand" type="text" placeholder="Brand">
+        <input id="model" type="text" placeholder="Model">
+        </div>
+        <div class="other">
+        <input id="price" type="number" placeholder="Price">
+        <input id="category" type="text" placeholder="Category">
+        <input id="quantity" type="number" placeholder="Quantity">
+        </div> 
+        <input id="description" type="text" placeholder="Description">  
+        <button id="bt1" class="bt">Create</button>
+        <div class="search">
+            <input id="search" type="text" placeholder="Search">
+            <button id="bt5" class="bt" >Search By Name</button>
+           </div>
+       <div class="bts2">  
+        <button id="bt3" class="bt">Sort By Price</button>
+        <button id="bt4" class="bt">Sort By Quantity</button>
+       </div>
+       <div class="last"></div>
+       <button id="bt2" class="bt">Delete All</button>
+       <button id="bt6" class="bt">Get Original</button>
+     </div>
+     <div class="outputs">
+        <table>
+            <tr class="head">
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Description</th>
+            </tr>
+            <tbody class="listOfProduct">
+            </tbody>
+        </table>
+     </div>
+    </div>
+    <script
+     src="https://code.jquery.com/jquery-3.7.1.js"
+     integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+     crossorigin="anonymous"
+    ></script>
     <script src="myfirst.js"></script>
 </body>
 </html>

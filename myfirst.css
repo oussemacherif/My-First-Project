@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(51, 49, 54);
+}
+.all{
+    width:80%;
+    margin:auto;
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+    justify-content: center;
+    background-color: rgb(43, 25, 104);
+    border-radius: 10px;
+}
+input{
+    background-color: rgb(26, 25, 30);
+    color:aliceblue;
+    border-radius: 8px;
+    width: 100%;
+    height: 25px;
+    border:none;
+    margin:5px;
+    padding:3px;
+}
+input:hover{
+    background-color: rgb(4, 10, 10);
+}
+input:focus{
+    background-color:rgb(1, 9, 9);
+    transform:scale(1.05);
+}
+.brandModel input,.other input{
+width: 31.7%;
+}
+
+.bt{
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    margin:4px;
+    background-color: rgb(24, 113, 131);
+    border-radius: 15px;
+    color: beige;
+    font-size: 15px;
+}
+.bt:hover{
+    background-color: rgb(112, 163, 193);
+}
+#bt3, #bt2{
+    margin-left: 20%;
+}
+#bt1{
+    margin-left: 34%;
+    justify-content:center
+}
+.search{
+    display:flex;
+    gap:35px;
+}
+#search{
+    width:55%;
+}
+table{
+    width: 100%;
+    text-align:center;
+    color:rgba(203, 216, 216, 0.966);
+    margin:10px 0;
+    background-color: rgb(24, 113, 131);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.head{
+    background-color: rgb(45, 59, 118); 
+}
